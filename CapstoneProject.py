@@ -477,6 +477,8 @@ class BusinessManagementSystem:
         """Tab for inventory analysis"""
         inventory_tab = tk.Frame(self.notebook,bg="#141414")
         self.notebook.add(inventory_tab, text="Inventory Analysis")
+
+        print("I am in setup_inventory_tab")
         
         # Header
         header = tk.Label(inventory_tab, text="Select a tool to analyze your inventory performance",anchor="e", font=("Calibri", 13, "bold"), bg="#141414", fg="white")
